@@ -1,0 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset  "utf-8";
+
+//custom fonts
+@import url(https://fonts.googleapis.com/css?family=Khula:400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700,700italic);
+
+//shared styles
+@import "partials/variables.scss", "partials/mixins.scss", "partials/grid.scss", "partials/typography.scss","partials/utilities.scss","partials/syntax-highlighting.scss";
+
+//component styles
+@import "components/base.scss","components/site-header.scss","components/site-footer.scss", "components/page-content.scss","components/posts.scss","components/images.scss", "components/buttons.scss","components/links.scss","components/gallery.scss","components/charts.scss";
