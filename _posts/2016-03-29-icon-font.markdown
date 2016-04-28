@@ -3,16 +3,18 @@ layout: post
 title:  "Bowtie Icon Font"
 date:   2016-03-29 14:48:27 -0700
 categories: work
-thumbnailurl: "http://placehold.it/400x400/b0bb91/ffffff"
+thumbnailurl: "/images/works-iconfont.png"
 excerpt_separator: <!--more-->
 ---
-<p>Icon font for Visual Studio Team Services and visualstudio.com</p>
+Icon font for Visual Studio Team Services and visualstudio.com
 <!--more-->
-<p data-height="400" data-theme-id="17237" data-slug-hash="KzaVWb" data-default-tab="result" data-user="chryw" class="codepen">See the Pen <a href="http://codepen.io/chryw/pen/KzaVWb/">Bowtie icon catalog</a> by Cherry Wang (<a href="http://codepen.io/chryw">@chryw</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+[Visual Studio Team Services](https://www.visualstudio.com/en-us/products/visual-studio-team-services-vs.aspx){:target="_blank"} (formerly Visual Studio Online) is cloud services for teams to share code, track work, and ship software. The rich featured web UI many components that include icons. VSTS used to use png format icons. As the product grows rapidly, the amount of image format icons became a burden to performance as well as asset management. Rasterized image format also could not meet the HDPI display requirements. The visual of the png icons was also outdated and sometimes unnecessarily complicated.
+
+I worked with two PMs investigating a better icon solution and we decided to use icon font. It is compatible with popular browser platforms, scalable for any DPI, and it requires little code change on the dev side. We studied some existing icon font services like [Font Awesome](https://fortawesome.github.io/Font-Awesome/icons/){:target="_blank"} and [IcoMoon](https://icomoon.io/){:target="_blank"}. I created the icon vector source files (svg) and helped write scripts to automate build and deployment workflow.
+
+A few Web UI based apps like Azure Service Fabric Explorer, Azure Storage Explorer, visualstuido.com also started to adopt our icon font for mockup, planning or production.
+
+Below is a demo page for designers and devs to learn about and look up existing icons.
+
+<p data-height="800" data-theme-id="17237" data-slug-hash="KzaVWb" data-default-tab="result" data-user="chryw" class="codepen">See the Pen <a href="http://codepen.io/chryw/pen/KzaVWb/" target="_blank">Bowtie icon catalog</a> by Cherry Wang (<a href="http://codepen.io/chryw" target="_blank">@chryw</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

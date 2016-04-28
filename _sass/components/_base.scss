@@ -1,0 +1,10 @@
+hr {
+	border-color: $color-accent;
+}
+
+@media (min-width: $breakpoint-md) {
+	.resume-left {
+		padding-right: 2em;
+		border-right: 1px solid $color-accent;
+	}
+}
