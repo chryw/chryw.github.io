@@ -4,16 +4,16 @@ layout: default
 
 <div class="home">
     <h1 class="greeting"><span class="long-line-block">Hello!</span><span class="long-line-divider"></span> <span class="long-line-block">I'm Cherry Wang.</span></h1>
-    <p id="test"></p>
     <div class="introduction">
         <p>I'm a coordinator between Tech and Art, a builder who turns ideas into interactive Web Apps, a strategist who streamlines Design Workflow, a gatekeeper when artworks go to Archive, and an optimizer of Retrieving information from database. I care
             about UX Design workflow and information Find-ability. I make information produced and used in an Organized way so it is useful and find-able.</p>
 
-        <p>In my free time, I freelance on print design, learn new skills, and play a <a href="http://na.finalfantasyxiv.com/lodestone/character/2336810/" class="link" target="_blank">Healer</a> character in Final Fantasy XIV.</p>
+        <p>In my free time, I freelance on graphic design, learn new skills, and play a <a href="http://na.finalfantasyxiv.com/lodestone/character/2336810/" class="link" target="_blank">Miqo'te</a> character in Final Fantasy XIV.</p>
     </div>
 </div>
-<div class="works row">
-    <h1 class="page-heading">Recent Works</h1>
+<hr>
+<div class="works">
+    <h3>Recent Works</h3>
     <ul class="post-list">
         {% for post in site.posts | limit: 4 %}
         <li>
