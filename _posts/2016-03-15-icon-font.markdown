@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bowtie Icon Font"
-date:   2016-03-29 14:48:27 -0700
+date:   2016-03-15 22:32:16 -0700
 categories: work
 thumbnailurl: "/images/works-iconfont.png"
 excerpt_separator: <!--more-->
@@ -14,7 +14,7 @@ I worked with two PMs investigating a better icon solution and we decided to use
 
 A few Web UI based apps like Azure Service Fabric Explorer, Azure Storage Explorer, visualstuido.com also started to adopt our icon font for mockup, planning or production.
 
-Below is a demo page for designers and devs to learn about and look up existing icons.
+#### Demo page for designers and devs to learn about and look up existing icons
 
 <p data-height="800" data-theme-id="17237" data-slug-hash="KzaVWb" data-default-tab="result" data-user="chryw" class="codepen">See the Pen <a href="http://codepen.io/chryw/pen/KzaVWb/" target="_blank">Bowtie icon catalog</a> by Cherry Wang (<a href="http://codepen.io/chryw" target="_blank">@chryw</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

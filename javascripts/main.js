@@ -47,10 +47,14 @@ define(['jquery', 'Chart'], function($, Chart) {
 
     //create charts - I only have one chart for now. will make an object if more charts are added
     var createCharts = function() {
+
+        //global chart settings
         Chart.defaults.global.legend.display = false;
         Chart.defaults.global.defaultFontColor = hexToRgb(gloalVariables.colors['color-brand']);
 
+        //get the DOM element that holds the chart
         var chartRadarDOM = $('#chartRadar');
+        //define chart data
         var chartRadarData = {
             labels: ["HTML / CSS", "JavaScript", "Database", "C#.NET / OOP / Algorithm", "Photoshop / Illustrator", "Git"],
             datasets: [{
@@ -65,6 +69,7 @@ define(['jquery', 'Chart'], function($, Chart) {
                 data: [9, 7, 6, 5, 10, 9]
             }]
         };
+        //define chart options
         var chartRadarOptions = {
             scale: {
                 ticks: {
@@ -79,6 +84,7 @@ define(['jquery', 'Chart'], function($, Chart) {
                 }
             }
         };
+        //initiate chart
         var chartRadar = new Chart(chartRadarDOM, {
             type: 'radar',
             data: chartRadarData,
