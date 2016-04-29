@@ -21,5 +21,9 @@
       "breakpoint-md": "750px",
       "breakpoint-lg": "1000px",
       "breakpoint-xl": "1200px"
+    },
+    "messages": {
+      "test": "Hey! This is a test message.",
+      "greeting": "Hello! I'm glad you looked at my code. If you like it or have suggestions, feel free to poke me @chryw! (*・ω・)ﾉ"
     }
 }

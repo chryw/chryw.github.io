@@ -25,7 +25,6 @@ require.config({
 define(['jquery', 'Chart'], function($, Chart) {
     //load global variables from _data/variables.json
     var gloalVariables = {{ site.data.variables | jsonify }};
-    console.log(gloalVariables);
 
     //convert hex string to rgba string
     var hexToRgb = function(hex, opacity) { //hex: '#AAABBB'
@@ -53,45 +52,54 @@ define(['jquery', 'Chart'], function($, Chart) {
         Chart.defaults.global.defaultFontColor = hexToRgb(gloalVariables.colors['color-brand']);
 
         //get the DOM element that holds the chart
-        var chartRadarDOM = $('#chartRadar');
-        //define chart data
-        var chartRadarData = {
-            labels: ["HTML / CSS", "JavaScript", "Database", "C#.NET / OOP / Algorithm", "Photoshop / Illustrator", "Git"],
-            datasets: [{
-                label: "Skill Level",
-                backgroundColor: hexToRgb(gloalVariables.colors['color-brand'], 50),
-                borderColor: hexToRgb(gloalVariables.colors['color-brand'], 80),
-                pointBackgroundColor: hexToRgb(gloalVariables.colors['color-brand']),
-                pointBorderColor: '#fff',
-                pointHoverBackgroundColor: '#fff',
-                pointHoverBorderColor: hexToRgb(gloalVariables.colors['color-brand']),
-                pointBorderWidth: 2,
-                data: [9, 7, 6, 5, 10, 9]
-            }]
-        };
-        //define chart options
-        var chartRadarOptions = {
-            scale: {
-                ticks: {
-                    beginAtZero: true,
-                    maxTicksLimit: 6
-                },
-                pointLabels: {
-                    fontSize: 12
-                },
-                gridLines: {
-                    color: hexToRgb(gloalVariables.colors['color-brand'], 10)
-                }
-            }
-        };
-        //initiate chart
-        var chartRadar = new Chart(chartRadarDOM, {
-            type: 'radar',
-            data: chartRadarData,
-            options: chartRadarOptions
-        });
+        var chartRadarDOM = $('#chartRadar > canvas');
+        if (chartRadarDOM !== null && chartRadarDOM !== undefined) {
+          //define chart data
+          var chartRadarData = {
+              labels: ["HTML / CSS", "JavaScript", "Database", "C#.NET / OOP / Algorithm", "Photoshop / Illustrator", "Git"],
+              datasets: [{
+                  label: "Skill Level",
+                  backgroundColor: hexToRgb(gloalVariables.colors['color-brand'], 50),
+                  borderColor: hexToRgb(gloalVariables.colors['color-brand'], 80),
+                  pointBackgroundColor: hexToRgb(gloalVariables.colors['color-brand']),
+                  pointBorderColor: '#fff',
+                  pointHoverBackgroundColor: '#fff',
+                  pointHoverBorderColor: hexToRgb(gloalVariables.colors['color-brand']),
+                  pointBorderWidth: 2,
+                  data: [9, 7, 6, 5, 10, 9]
+              }]
+          };
+          //define chart options
+          var chartRadarOptions = {
+              scale: {
+                  ticks: {
+                      beginAtZero: true,
+                      maxTicksLimit: 6
+                  },
+                  pointLabels: {
+                      fontSize: 12
+                  },
+                  gridLines: {
+                      color: hexToRgb(gloalVariables.colors['color-brand'], 10)
+                  }
+              }
+          };
+          //initiate chart
+          var chartRadar = new Chart(chartRadarDOM, {
+              type: 'radar',
+              data: chartRadarData,
+              options: chartRadarOptions
+          });
+        }
     };
 
-    //call things
-    createCharts();
+    $(document).ready(function(){
+      //console greeting
+      console.log(gloalVariables.messages.greeting);
+
+      //if there are charts needed to be drawn, call createCharts function
+      if($('.chart').length > 0) {
+        createCharts();
+      }
+    });
 });
