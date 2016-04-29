@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FFXIV Character Randomizer"
-date:   2015-10-24 22:20:32 -0700
+date:   2015-11-05 22:20:32 -0700
 categories: work
 thumbnailurl: "/images/works-character-randomizer.gif"
 excerpt_separator: <!--more-->
