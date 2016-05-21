@@ -88,3 +88,9 @@ h6 {
 p {
     margin-top: 0;
 }
+a {
+  text-decoration: none;
+  &,&:visited {
+    color: $color-brand;
+  }
+}

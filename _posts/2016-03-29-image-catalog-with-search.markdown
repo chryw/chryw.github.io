@@ -3,7 +3,8 @@ layout: post
 title:  "Image Catalog with Search"
 date:   2016-03-29 14:48:27 -0700
 categories: work
-thumbnailurl: "/images/works-image-catalog.gif"
+thumbnailurl: "/images/works-image-catalog.png"
+thumbnailswap: true
 excerpt_separator: <!--more-->
 ---
 An searchable web catalog for UX image assets like icons, font and illustrations.

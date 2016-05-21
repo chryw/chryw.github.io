@@ -4,11 +4,11 @@ layout: default
 
 <div class="home">
     <h1 class="greeting"><span class="long-line-block">Hello!</span><span class="long-line-divider"></span> <span class="long-line-block">I'm Cherry Wang.</span></h1>
-    <div class="introduction">
+    <div class="intro">
         <p>I'm a coordinator between Tech and Art, a builder who turns ideas into interactive Web Apps, a strategist who streamlines Design Workflow, a gatekeeper when artworks go to Archive, and an optimizer of Retrieving information from database. I care
             about UX Design workflow and information Find-ability. I make information produced and used in an Organized way so it is useful and find-able.</p>
 
-        <p>In my free time, I freelance on graphic design, learn new skills, and play a <a href="http://na.finalfantasyxiv.com/lodestone/character/2336810/" class="link" target="_blank">Miqo'te</a> character in Final Fantasy XIV.</p>
+        <p>In my free time, I freelance on graphic design, learn new skills, and play a <a href="http://na.finalfantasyxiv.com/lodestone/character/2336810/"  target="_blank">Miqo'te</a> character in Final Fantasy XIV.</p>
     </div>
 </div>
 <hr>
@@ -20,10 +20,10 @@ layout: default
           <div class="post-list-item">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h5>
-            <a class="post-link link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h5>
             <p class="post-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-            <a href="{{ post.url | prepend: site.baseurl }}" class="post-thumbnail"><img src={{ post.thumbnailurl }} class="img-responsive" /></a>
+            <a href="{{ post.url | prepend: site.baseurl }}" class="post-thumbnail"><img src={{ post.thumbnailurl }} class="img-responsive thumbnail" data-thumbnailswap="{{ post.thumbnailswap }}" /></a>
           </div>
         </li>
         {% endfor %}

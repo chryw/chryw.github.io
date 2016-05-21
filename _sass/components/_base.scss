@@ -9,6 +9,11 @@ hr {
     }
   }
 }
+.intro {
+  a {
+    @include link-default ($color-brand);
+  }
+}
 
 .resume {
     & > div {
@@ -22,6 +27,11 @@ hr {
 	li {
 		margin: $spacing-unit/2 $spacing-unit/2 auto;
 	}
+}
+.resume-content {
+  a {
+    @include link-default($color-brand);
+  }
 }
 
 @media (min-width: $breakpoint-md) {

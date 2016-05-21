@@ -4,6 +4,7 @@ title:  "Bowtie Icon Font"
 date:   2016-03-15 22:32:16 -0700
 categories: work
 thumbnailurl: "/images/works-iconfont.png"
+thumbnailswap: false
 excerpt_separator: <!--more-->
 ---
 Icon font for Visual Studio Team Services and visualstudio.com

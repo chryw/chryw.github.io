@@ -4,6 +4,7 @@ title:  "Metadata Schema Designs"
 date:   2015-10-24 12:13:22 -0700
 categories: work
 thumbnailurl: "/images/works-metadata-schema-golder.png"
+thumbnailswap: false
 excerpt_separator: <!--more-->
 ---
 

@@ -3,7 +3,8 @@ layout: post
 title:  "FFXIV Character Randomizer"
 date:   2015-11-05 22:20:32 -0700
 categories: work
-thumbnailurl: "/images/works-character-randomizer.gif"
+thumbnailurl: "/images/works-character-randomizer.png"
+thumbnailswap: true
 excerpt_separator: <!--more-->
 ---
 A game character profile generator I made for creating dummy data entries for database project.

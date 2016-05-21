@@ -4,6 +4,7 @@ title:  "Animal Rescue Website (WIP)"
 date:   2016-03-25 09:32:02 -0700
 categories: work
 thumbnailurl: "/images/works-motleyzoo-layout.png"
+thumbnailswap: false
 excerpt_separator: <!--more-->
 ---
 WordPress theme redesign for a local animal rescue.

@@ -4,6 +4,7 @@ title:  "HTML Mockups for VSTS"
 date:   2016-01-26 15:03:49 -0700
 categories: work
 thumbnailurl: "/images/works-mockup-collage-1.png"
+thumbnailswap: false
 excerpt_separator: <!--more-->
 ---
 Mockups created for Visual Studio Team Services.

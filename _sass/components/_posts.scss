@@ -1,3 +1,44 @@
+.post-list {
+    margin-left: -40px;
+    list-style: none;
+    width: 100%;
+    & > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+@media (min-width: $breakpoint-md) {
+    .post-list {
+        & > li {
+            display: inline-block;
+            float: left;
+            width: 50%;
+            height: 480px;
+            overflow: hidden;
+        }
+    }
+    .post-list-item {
+      padding: 1em;
+    }
+    .post-thumbnail {
+      display: block;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $color-grey;
+}
+.post-link {
+    display: block;
+    vertical-align: bottom;
+    @include link-default($color-brand);
+}
+.post-excerpt {
+    display: block;
+    height: 4em;
+    font-size: $small-font-size;
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -28,5 +69,8 @@
         @include media-query($breakpoint-md) {
             font-size: 18px;
         }
+    }
+    a {
+      @include link-default($color-brand);
     }
 }
