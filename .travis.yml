@@ -10,6 +10,7 @@ script:
 - gulp clean
 - gulp build
 - gulp cachebust
+- gulp cleanremote
 - gulp deploy
 env:
   global:

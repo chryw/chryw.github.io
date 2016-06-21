@@ -14,10 +14,10 @@ const conn = ftp.create({
 });
 var timestamp = Math.round(Date.now() / 1000);
 
-gulp.task('default',['clean', 'build','cachebust','deploy']);
+gulp.task('default',['clean', 'build','cachebust','cleanremote','deploy']);
 
 gulp.task('clean', function() {
-    return del(['_site']);
+    del(['_site']);
 });
 
 gulp.task('build', function(cb){
@@ -38,7 +38,7 @@ gulp.task('cachebust', function(){
 });
 
 //ftp deployment
-gulp.task('deploy', ['cleanremote'], function(){
+gulp.task('deploy', function(){
   gulp.src('_site/**/*.*')
   .pipe(conn.dest('chryw'));
 });
