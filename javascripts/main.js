@@ -18,7 +18,8 @@ require.config({
         'Chart': {
             exports: 'Chart'
         }
-    }
+    },
+    urlArgs: '?=@@hash'
 });
 
 
