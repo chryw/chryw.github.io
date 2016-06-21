@@ -14,7 +14,7 @@ const conn = ftp.create({
 });
 var timestamp = Math.round(Date.now() / 1000);
 
-gulp.task('default',['clean', 'build','cachebust','cleanremote','deploy']);
+gulp.task('default',['clean', 'build','cachebust','deploy']);
 
 gulp.task('clean', function() {
     del(['_site']);
@@ -38,7 +38,7 @@ gulp.task('cachebust', function(){
 });
 
 //ftp deployment
-gulp.task('deploy', function(){
+gulp.task('deploy',['cleanremote'], function(){
   gulp.src('_site/**/*.*')
   .pipe(conn.dest('chryw'));
 });
