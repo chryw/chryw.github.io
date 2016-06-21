@@ -1,6 +1,9 @@
 language: ruby
 rvm:
 - 2.2
+notifications:
+  email:
+    - chryw@catenology.com
 before_install:
 - ruby -v
 - gem install jekyll -v 3.1
