@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Metadata Schema Designs"
-date:   2015-10-24 12:13:22 -0700
+date:   2015-10-24 12:13:22 -0800
 categories: work
 thumbnailurl: "/images/works-metadata-schema-golder.png"
-thumbnailswap: false
+thumbnailswap: project
 excerpt_separator: <!--more-->
 ---
 

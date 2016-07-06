@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "FFXIV Character Randomizer"
-date:   2015-11-05 22:20:32 -0700
-categories: work
+date:   2015-11-05 22:20:32 -0800
+categories: project
 thumbnailurl: "/images/works-character-randomizer.png"
 thumbnailswap: true
 excerpt_separator: <!--more-->

@@ -13,17 +13,21 @@ layout: default
 </div>
 <hr>
 <div class="works">
-    <h3>Recent Works</h3>
+    <h3>Recent Projects</h3>
     <ul class="post-list">
-        {% for post in site.posts | limit: 4 %}
+      {% assign recents = site.categories.project %}
+        {% for recent in recents | limit: 4 %}
         <li>
           <div class="post-list-item">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">{{ recent.date | date: "%b %-d, %Y" }}</span>
             <h5>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="post-link" href="{{ recent.url | prepend: site.baseurl }}">{{ recent.title }}</a>
           </h5>
-            <p class="post-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-            <a href="{{ post.url | prepend: site.baseurl }}" class="post-thumbnail"><img src={{ post.thumbnailurl }} class="img-responsive thumbnail" data-thumbnailswap="{{ post.thumbnailswap }}" /></a>
+            <p class="post-excerpt">{{ recent.excerpt | remove: '<p>' | remove: '</p>' }}</p>{% if recent.thumbnailurl %}
+            <a href="{{ recent.url | prepend: site.baseurl }}" class="post-thumbnail"><img src={{ recent.thumbnailurl }} class="img-responsive thumbnail" data-thumbnailswap="{{ recent.thumbnailswap }}" /></a>
+            {% else %}
+            <a href="{{ recent.url | prepend: site.baseurl }}" class="post-thumbnail"><img src="http://placehold.it/800/b0bb91/ffffff?text={{recent.title}}" class="img-responsive thumbnail"/></a>
+            {% endif %}
           </div>
         </li>
         {% endfor %}

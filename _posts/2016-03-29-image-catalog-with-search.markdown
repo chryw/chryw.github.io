@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Image Catalog with Search"
-date:   2016-03-29 14:48:27 -0700
-categories: work
+date:   2016-03-29 14:48:27 -0800
+categories: project
 thumbnailurl: "/images/works-image-catalog.png"
 thumbnailswap: true
 excerpt_separator: <!--more-->

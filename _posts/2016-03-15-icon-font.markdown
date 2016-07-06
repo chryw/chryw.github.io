@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Bowtie Icon Font"
-date:   2016-03-15 22:32:16 -0700
-categories: work
+date:   2016-03-15 22:32:16 -0800
+categories: project
 thumbnailurl: "/images/works-iconfont.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Animal Rescue Website (WIP)"
-date:   2016-03-25 09:32:02 -0700
-categories: work
+date:   2016-03-25 09:32:02 -0800
+categories: project
 thumbnailurl: "/images/works-motleyzoo-layout.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->

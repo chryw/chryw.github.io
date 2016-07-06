@@ -1,0 +1,27 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+<div class="works">
+    <ul class="post-list">
+      {% assign projects = site.categories.project %}
+        {% for project in projects %}
+        <li>
+          <div class="post-list-item">
+            <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
+            <h5>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ project.title }}</a>
+          </h5>
+            <p class="post-excerpt">{{ project.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+            {% if project.thumbnailurl %}
+            <a href="{{ project.url | prepend: site.baseurl }}" class="post-thumbnail"><img src={{ project.thumbnailurl }} class="img-responsive thumbnail" data-thumbnailswap="{{ project.thumbnailswap }}" /></a>
+            {% else %}
+            <a href="{{ project.url | prepend: site.baseurl }}" class="post-thumbnail"><img src="http://placehold.it/800/b0bb91/ffffff?text={{project.title}}" class="img-responsive thumbnail"/></a>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
