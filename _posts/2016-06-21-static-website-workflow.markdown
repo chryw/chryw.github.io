@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Static website workflow"
-date:   2016-06-21 10:42:27 -0800
+date:   2016-06-21 10:42:27 -0700
 categories: project
+thumbnailurl: "/images/2016-06-21-static-website-workflow.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Catfw Design Framework"
-date:   2016-07-06 12:48:27 -0800
+date:   2016-07-06 12:48:27 -0700
 categories: project
 thumbnailurl: "/images/2016-07-06-catfw-design-framework.png"
 thumbnailswap: true

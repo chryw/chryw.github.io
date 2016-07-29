@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Countdown timer for site maintenance"
-date:   2016-07-17 17:37:27 -0800
+date:   2016-07-17 17:37:27 -0700
 categories: project
 thumbnailurl: "/images/2016-07-17-countdown-maintenance-page.png"
 thumbnailswap: true

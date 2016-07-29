@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "HTML Mockups for VSTS"
-date:   2016-01-26 15:03:49 -0800
+date:   2016-01-26 15:03:49 -0700
 categories: project
-thumbnailurl: "/images/works-mockup-collage-1.png"
+thumbnailurl: "/images/2016-01-26-html-mockups-for-vsts.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->
 ---

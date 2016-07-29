@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Image Catalog with Search"
-date:   2016-03-29 14:48:27 -0800
+date:   2016-03-29 14:48:27 -0700
 categories: project
-thumbnailurl: "/images/works-image-catalog.png"
+thumbnailurl: "/images/2016-03-29-image-catalog-with-search.png"
 thumbnailswap: true
 excerpt_separator: <!--more-->
 ---
@@ -20,4 +20,4 @@ I also make sure the existing assets are correct, up-to-date, organized and find
 
 The catalog is for internal use. Below is a screen record demo.
 
-<a href="https://github.com/chryw/vsfi" target="_blank"><img class="img-responsive" src="/images/works-image-catalog.gif" alt="Image Catalog with Search" /></a>
+<a href="https://github.com/chryw/vsfi" target="_blank"><img class="img-responsive" src="/images/2016-03-29-image-catalog-with-search.gif" alt="Image Catalog with Search" /></a>

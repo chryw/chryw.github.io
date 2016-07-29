@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "VSTS Nav Dropdown Mockup"
-date:   2016-07-06 11:48:27 -0800
+date:   2016-07-06 11:48:27 -0700
 categories: project
 thumbnailurl: "/images/2016-07-06-vsts-nav-dropdown-mockup.png"
 thumbnailswap: true

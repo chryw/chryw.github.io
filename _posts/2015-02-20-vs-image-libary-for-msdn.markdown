@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Visual Stduio Image Library for MSDN"
-date:   2015-02-20 21:23:19 -0800
+date:   2015-02-20 21:23:19 -0700
 categories: project
-thumbnailurl: "/images/works-image-catalog-index-dictionary.png"
+thumbnailurl: "/images/2015-02-20-vs-image-libary-for-msdn.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->
 ---

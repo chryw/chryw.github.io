@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Nav filter in jumbotron"
-date:   2016-05-19 13:48:27 -0800
+date:   2016-05-19 13:48:27 -0700
 categories: project
-thumbnailurl: "/images/works-nav-filter-in-jumbotron.png"
+thumbnailurl: "/images/2016-05-19-nav-filter-in-jumbotron.png"
 thumbnailswap: true
 excerpt_separator: <!--more-->
 ---
