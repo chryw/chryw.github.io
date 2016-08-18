@@ -23,7 +23,7 @@ gulp.task('clean', () => {
     return del(['_site']);
 });
 
-gulp.task('build',['imagemin'], (cb) => {
+gulp.task('build', (cb) => {
 	return exec(['jekyll b --source . --destination _site'], (err, stdout, stderr) => {
 			console.log(stdout);
 			console.log(stderr);

@@ -5,6 +5,12 @@ permalink: /projects/
 ---
 
 <div class="works">
+  <!-- <div class="tags text-justify">
+    {% assign tags = site.tags %}
+    {% for tag in tags %}
+    <a href="tag/{{ tag[0] | prepend: base.url }}" class="tag" title="{{ tag[1].size }} projects">{{ tag[0] }}</a>
+    {% endfor %}
+  </div> -->
     <ul class="post-list">
       {% assign projects = site.categories.project %}
         {% for project in projects %}
@@ -12,7 +18,7 @@ permalink: /projects/
           <div class="post-list-item">
             <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
             <h5>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ project.title }}</a>
+            <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
           </h5>
             <p class="post-excerpt">{{ project.excerpt | remove: '<p>' | remove: '</p>' }}</p>
             {% if project.thumbnailurl %}

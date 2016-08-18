@@ -3,6 +3,7 @@ layout: post
 title:  "Catfw Design Framework"
 date:   2016-07-06 12:48:27 -0700
 categories: project
+tags: frontend web design html css javascript sass babel jquery iconfont
 thumbnailurl: "/images/2016-07-06-catfw-design-framework.png"
 thumbnailswap: true
 excerpt_separator: <!--more-->

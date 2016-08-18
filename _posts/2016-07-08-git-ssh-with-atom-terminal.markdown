@@ -3,6 +3,7 @@ layout: post
 title:  "Git SSH with Platformio IDE Terminal for Atom"
 date:   2016-07-08 13:48:27 -0700
 categories: project
+tags: workflow productivity git version control
 thumbnailurl: "/images/2016-07-08-git-ssh-with-atom-terminal.png"
 thumbnailswap: true
 excerpt_separator: <!--more-->

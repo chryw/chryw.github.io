@@ -3,6 +3,7 @@ layout: post
 title:  "Animal Rescue Website (WIP)"
 date:   2016-03-25 09:32:02 -0700
 categories: project
+tags: design frontend bootstrap html css javascript sass
 thumbnailurl: "/images/2016-03-25-animal-rescue-website.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->

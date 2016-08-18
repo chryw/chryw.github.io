@@ -3,6 +3,7 @@ layout: post
 title:  "HTML Mockups for VSTS"
 date:   2016-01-26 15:03:49 -0700
 categories: project
+tags: html css sass ui mockup frontend design vsts web app
 thumbnailurl: "/images/2016-01-26-html-mockups-for-vsts.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->

@@ -15,8 +15,8 @@ layout: default
 <div class="works">
     <h3>Recent Projects</h3>
     <ul class="post-list">
-      {% assign recents = site.categories.project %}
-        {% for recent in recents | limit: 4 %}
+      {% assign recents = site.categories.project | limit: 4 %}
+        {% for recent in recents %}
         <li>
           <div class="post-list-item">
             <span class="post-meta">{{ recent.date | date: "%b %-d, %Y" }}</span>

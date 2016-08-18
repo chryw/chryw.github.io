@@ -49,7 +49,14 @@ hr {
         border-right: 1px solid $color-accent;
     }
 }
-
+.works {
+  a.tag {
+    @include link-default($color-brand);
+    &:not(:first-child) {
+      margin-left: 8px;
+    }
+  }
+}
 .copyright {
   font-size: $small-font-size;
   color: $color-grey-dark;

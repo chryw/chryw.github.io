@@ -3,6 +3,7 @@ layout: post
 title:  "Bowtie Icon Font"
 date:   2016-03-15 22:32:16 -0700
 categories: project
+tags: icon iconfont design frontend web app vsts search catalog svg javascript css sass
 thumbnailurl: "/images/2016-03-15-icon-font.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->

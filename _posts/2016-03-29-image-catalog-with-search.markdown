@@ -3,6 +3,7 @@ layout: post
 title:  "Image Catalog with Search"
 date:   2016-03-29 14:48:27 -0700
 categories: project
+tags: catalog search metadata database library web app frontend asset management html css javascript jquery bootstrap angularjs
 thumbnailurl: "/images/2016-03-29-image-catalog-with-search.png"
 thumbnailswap: true
 excerpt_separator: <!--more-->

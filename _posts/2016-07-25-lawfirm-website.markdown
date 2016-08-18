@@ -3,6 +3,7 @@ layout: post
 title:  "Law firm website"
 date:   2016-07-24 13:16:27 -0700
 categories: project
+tags: web design frontend html css javascript sass babel
 thumbnailurl: "/images/2016-07-25-lawfirm-website.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->
