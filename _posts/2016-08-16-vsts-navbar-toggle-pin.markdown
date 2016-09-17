@@ -4,7 +4,7 @@ title:  "VSTS Navbar Toggle Pin/Unpin"
 date:   2016-08-16 10:49:19 -0700
 categories: project
 tags: html css sass babel ui mockup frontend design vsts web app
-thumbnailurl: "/images/2016-08-16-vsts-navbar-toggle-pin.png"
+thumbnailurl: "2016-08-16-vsts-navbar-toggle-pin.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->
 ---

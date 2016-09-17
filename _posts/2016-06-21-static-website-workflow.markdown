@@ -4,7 +4,7 @@ title:  "Static website workflow"
 date:   2016-06-21 10:42:27 -0700
 categories: project
 tags: frontend workflow productivity html css javascript sass babel gulp iconfont optimization
-thumbnailurl: "/images/2016-06-21-static-website-workflow.png"
+thumbnailurl: "2016-06-21-static-website-workflow.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->
 ---

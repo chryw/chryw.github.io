@@ -4,7 +4,7 @@ title:  "Image Catalog with Search"
 date:   2016-03-29 14:48:27 -0700
 categories: project
 tags: catalog search metadata database library web app frontend asset management html css javascript jquery bootstrap angularjs
-thumbnailurl: "/images/2016-03-29-image-catalog-with-search.png"
+thumbnailurl: "2016-03-29-image-catalog-with-search.png"
 thumbnailswap: true
 excerpt_separator: <!--more-->
 ---
@@ -21,4 +21,4 @@ I also make sure the existing assets are correct, up-to-date, organized and find
 
 The catalog is for internal use. Below is a screen record demo.
 
-<a href="https://github.com/chryw/vsfi" target="_blank"><img class="img-responsive" src="/images/2016-03-29-image-catalog-with-search.gif" alt="Image Catalog with Search" /></a>
+<a href="https://github.com/chryw/vsfi" target="_blank" rel="noopener noreferrer"><img class="img-responsive" src="/images/2016-03-29-image-catalog-with-search.gif" alt="Image Catalog with Search" /></a>

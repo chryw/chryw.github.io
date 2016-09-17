@@ -4,7 +4,7 @@ title:  "Nav filter in jumbotron"
 date:   2016-05-19 13:48:27 -0700
 categories: project
 tags: web design html css javascript
-thumbnailurl: "/images/2016-05-19-nav-filter-in-jumbotron.png"
+thumbnailurl: "2016-05-19-nav-filter-in-jumbotron.png"
 thumbnailswap: true
 excerpt_separator: <!--more-->
 ---

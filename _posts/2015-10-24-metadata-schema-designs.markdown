@@ -4,7 +4,7 @@ title:  "Metadata Schema Designs"
 date:   2015-10-24 12:13:22 -0700
 categories: work
 tags: metadata schema taxonomy catalog index ia information architecture tags assets management
-thumbnailurl: "/images/2015-10-24-metadata-schema-designs.png"
+thumbnailurl: "2015-10-24-metadata-schema-designs.png"
 thumbnailswap: project
 excerpt_separator: <!--more-->
 ---

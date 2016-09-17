@@ -4,7 +4,7 @@ title:  "Animal Rescue Website (WIP)"
 date:   2016-03-25 09:32:02 -0700
 categories: project
 tags: design frontend bootstrap html css javascript sass
-thumbnailurl: "/images/2016-03-25-animal-rescue-website.png"
+thumbnailurl: "2016-03-25-animal-rescue-website.png"
 thumbnailswap: false
 excerpt_separator: <!--more-->
 ---
@@ -12,7 +12,7 @@ WordPress theme redesign for a local animal rescue.
 
 <!--more-->
 
-The current website <a href="http://motleyzoo.org/" target="_blank" class="link">Motley Zoo</a> is using a very old WordPress theme. The navigation and site content is getting messier. My friends <a href="https://github.com/angelagiese" target="_blank" class="link">@angelagiese</a> and <a href="https://github.com/irzzz" target="_blank" class="link">@irzzz</a> are redesigning the WordPress theme with a modern look. We also analyzed the IA of the site to reorganize the navigation and content better.
+The current website <a href="http://motleyzoo.org/" target="_blank" rel="noopener noreferrer" class="link">Motley Zoo</a> is using a very old WordPress theme. The navigation and site content is getting messier. My friends <a href="https://github.com/angelagiese" target="_blank" rel="noopener noreferrer" class="link">@angelagiese</a> and <a href="https://github.com/irzzz" target="_blank" rel="noopener noreferrer" class="link">@irzzz</a> are redesigning the WordPress theme with a modern look. We also analyzed the IA of the site to reorganize the navigation and content better.
 
 #### Homepage layout
 

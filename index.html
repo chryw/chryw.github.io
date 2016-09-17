@@ -8,7 +8,7 @@ layout: default
         <p>I'm a coordinator between Tech and Art, a builder who turns ideas into interactive Web Apps, a strategist who streamlines Design Workflow, a gatekeeper when artworks go to Archive, and an optimizer of Retrieving information from database. I care
             about UX Design workflow and information Find-ability. I make information produced and used in an Organized way so it is useful and find-able.</p>
 
-        <p>In my free time, I freelance on graphic design, learn new skills, and play a <a href="http://na.finalfantasyxiv.com/lodestone/character/2336810/"  target="_blank">Miqo'te</a> character in Final Fantasy XIV.</p>
+        <p>In my free time, I freelance on graphic design, learn new skills, and play a <a href="http://na.finalfantasyxiv.com/lodestone/character/2336810/"  target="_blank" rel="noopener noreferrer">Miqo'te</a> character in Final Fantasy XIV.</p>
     </div>
 </div>
 <hr>
@@ -24,9 +24,9 @@ layout: default
             <a class="post-link" href="{{ recent.url | prepend: site.baseurl }}">{{ recent.title }}</a>
           </h5>
             <p class="post-excerpt">{{ recent.excerpt | remove: '<p>' | remove: '</p>' }}</p>{% if recent.thumbnailurl %}
-            <a href="{{ recent.url | prepend: site.baseurl }}" class="post-thumbnail"><img src={{ recent.thumbnailurl }} class="img-responsive thumbnail" data-thumbnailswap="{{ recent.thumbnailswap }}" /></a>
+            <a href="{{ recent.url | prepend: site.url }}" class="post-thumbnail"><img src={{ site.url }}/images/{{ recent.thumbnailurl }} class="img-responsive thumbnail" data-thumbnailswap="{{ recent.thumbnailswap }}" /></a>
             {% else %}
-            <a href="{{ recent.url | prepend: site.baseurl }}" class="post-thumbnail"><img src="http://placehold.it/800/b0bb91/ffffff?text={{recent.title}}" class="img-responsive thumbnail"/></a>
+            <a href="{{ recent.url | prepend: site.url }}" class="post-thumbnail"><img src="http://placehold.it/800/b0bb91/ffffff?text={{recent.title}}" class="img-responsive thumbnail"/></a>
             {% endif %}
           </div>
         </li>
