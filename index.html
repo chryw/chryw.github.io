@@ -24,7 +24,7 @@ layout: default
             <a class="post-link" href="{{ recent.url | prepend: site.baseurl }}">{{ recent.title }}</a>
           </h5>
             <p class="post-excerpt">{{ recent.excerpt | remove: '<p>' | remove: '</p>' }}</p>{% if recent.thumbnailurl %}
-            <a href="{{ recent.url | prepend: site.url }}" class="post-thumbnail"><img src={{ site.url }}/images/{{ recent.thumbnailurl }} class="img-responsive thumbnail" data-thumbnailswap="{{ recent.thumbnailswap }}" /></a>
+            <a href="{{ recent.url | prepend: site.url }}" class="post-thumbnail"><img src={{ site.baseurl | prepend: site.url }}/images/{{ recent.thumbnailurl }} class="img-responsive thumbnail" data-thumbnailswap="{{ recent.thumbnailswap }}" /></a>
             {% else %}
             <a href="{{ recent.url | prepend: site.url }}" class="post-thumbnail"><img src="http://placehold.it/800/b0bb91/ffffff?text={{recent.title}}" class="img-responsive thumbnail"/></a>
             {% endif %}
