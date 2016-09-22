@@ -12,7 +12,11 @@ excerpt_separator: <!--more-->
 I'm creating a new website for a law firm in Japan. My friend [@irzzz](http://github.com/irzzz) is the designer and I'm the developer.
 
 <!--more-->
-Our client Bridgeroot is a lawfirm located in Japan. Their current website was built several years ago with WordPress and maintained by a vendor. The client would like to recreate the website in a modern style, update some old content, and ideally have the site load faster. We analyzed their needs and suggested making it a Jekyll based static one page website because
+
+#### View live site here
+<a href="http://beta.catenology.com/cassielawfirm/" target="_blank" rel="noopener noreferrer">BridgeRoots staging website</a>
+
+Our client BridgeRoots is a lawfirm located in Japan. Their current website was built several years ago with WordPress and maintained by a vendor. The client would like to recreate the website in a modern style, update some old content, and ideally have the site load faster. We analyzed their needs and suggested making it a Jekyll based static one page website because
 - the site only serves as a simple showcase of the company's profile
 - the majority of site content doesn't need to be updated very often
 - there isn't a lot of server-side interaction needed
