@@ -1,5 +1,6 @@
 ---
 layout: default
+weight: 1
 ---
 
 <div class="home">
@@ -12,13 +13,12 @@ layout: default
     </div>
 </div>
 <hr>
-<div class="works">
+<div class="projects">
     <h3>Recent Projects</h3>
     <ul class="post-list">
-      {% assign recents = site.categories.project | limit: 4 %}
+      {% assign recents = site.categories.project | limit: 6 %}
         {% for recent in recents %}
-        <li>
-          <div class="post-list-item">
+        <li class="post-list-item">
             <span class="post-meta">{{ recent.date | date: "%b %-d, %Y" }}</span>
             <h5>
             <a class="post-link" href="{{ recent.url | prepend: site.baseurl }}">{{ recent.title }}</a>
@@ -28,7 +28,6 @@ layout: default
             {% else %}
             <a href="{{ recent.url | prepend: site.url }}" class="post-thumbnail"><img src="http://placehold.it/800/b0bb91/ffffff?text={{recent.title}}" class="img-responsive thumbnail"/></a>
             {% endif %}
-          </div>
         </li>
         {% endfor %}
     </ul>

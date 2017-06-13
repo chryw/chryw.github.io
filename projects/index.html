@@ -2,9 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
+weight: 2
 ---
 
-<div class="works">
+<div class="projects">
   <!-- <div class="tags text-justify">
     {% assign tags = site.tags %}
     {% for tag in tags %}
@@ -14,19 +15,15 @@ permalink: /projects/
     <ul class="post-list">
       {% assign projects = site.categories.project %}
         {% for project in projects %}
-        <li>
-          <div class="post-list-item">
+        <li class="post-list-item">
             <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
-            <h5>
-            <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-          </h5>
+            <h5><a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h5>
             <p class="post-excerpt">{{ project.excerpt | remove: '<p>' | remove: '</p>' }}</p>
             {% if project.thumbnailurl %}
             <a href="{{ project.url | prepend: site.baseurl }}" class="post-thumbnail"><img src={{ site.baseurl | prepend: site.url }}/images/{{ project.thumbnailurl }} class="img-responsive thumbnail" data-thumbnailswap="{{ project.thumbnailswap }}" /></a>
             {% else %}
             <a href="{{ project.url | prepend: site.baseurl }}" class="post-thumbnail"><img src="http://placehold.it/800/b0bb91/ffffff?text={{project.title}}" class="img-responsive thumbnail"/></a>
             {% endif %}
-          </div>
         </li>
         {% endfor %}
     </ul>

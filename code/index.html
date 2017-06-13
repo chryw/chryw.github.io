@@ -1,0 +1,18 @@
+---
+layout: page
+title: Code
+permalink: /code/
+weight: 4
+---
+
+<div class="codes">
+    <ul class="post-list">
+      {% assign posts = site.categories.code %}
+        {% for post in posts %}
+        <li class="post-list-item">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h5><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
