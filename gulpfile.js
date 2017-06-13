@@ -40,13 +40,9 @@ gulp.task('imagemin', () => {
 });
 
 gulp.task('cachebust',['build'], () => {
-  let html = gulp.src(['_site/index.html'])
+  return gulp.src(['_site/**/*.{html, js}'], {base:'_site/'})
   .pipe(replace(/@@hash/g, timestamp))
   .pipe(gulp.dest('_site'));
-  let js = gulp.src(['_site/javascripts/main.js'])
-  .pipe(replace(/@@hash/g, timestamp))
-  .pipe(gulp.dest('_site/javascripts'));
-  return merge(html,js);
 });
 
 //ftp deployment

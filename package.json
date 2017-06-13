@@ -16,7 +16,7 @@
     "url": "https://github.com/chryw/chryw.github.io/issues"
   },
   "homepage": "https://github.com/chryw/chryw.github.io#readme",
-  "devDependencies": {
+  "dependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-imagemin": "^3.0.2",
