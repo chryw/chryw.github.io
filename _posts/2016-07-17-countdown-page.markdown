@@ -4,7 +4,7 @@ title:  "Countdown timer for site maintenance"
 date:   2016-07-17 17:37:27 -0700
 categories: project
 tags: design web html css javascript
-thumbnailurl: "2016-07-17-countdown-maintenance-page.png"
+thumbnailurl: "2016-07-17-countdown-page.png"
 thumbnailswap: true
 excerpt_separator: <!--more-->
 ---
