@@ -8,6 +8,8 @@ const ftp = require('vinyl-ftp');
 const minimist = require('minimist');
 const imagemin = require('gulp-imagemin');
 const merge = require('merge-stream');
+const browserSync = require('browser-sync').create();
+
 const deployargs = minimist(process.argv.slice(2));
 const conn = ftp.create({
   host: deployargs.host,
@@ -55,4 +57,11 @@ gulp.task('cleanremote', (cb) => {
     return conn.rmdir('chryw', (err) => {
         cb();
     });
+});
+
+gulp.task('watch', ['cachebust'], () => {
+  browserSync.init({
+    server: './_site',
+  });
+  gulp.watch('**/*.{scss, js, md, html}, !_site/*.{css, js, html}', ['build']).on('change', browserSync.reload);
 });

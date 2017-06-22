@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/chryw/chryw.github.io#readme",
   "dependencies": {
+    "browser-sync": "^2.18.12",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-imagemin": "^3.0.2",
