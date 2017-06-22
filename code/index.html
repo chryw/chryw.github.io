@@ -6,13 +6,16 @@ weight: 4
 ---
 
 <div class="codes">
-    <ul class="post-list">
-      {% assign posts = site.categories.code %}
-        {% for post in posts %}
-        <li class="post-list-item">
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <h5><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
-        </li>
-        {% endfor %}
-    </ul>
+  <h3>A designer who writes code.</h3>
+  <p>I landed on my first job in a UX team supporting Visual Studio product family, because I had experience in both programming and graphic design: I coded in C#, .NET with Visual Studio when I was in college; I designed websites (pre web 2.0) and prints as a hobby. This combo later on brought me into the front end field - where design and code meet. My job requires me to interact with lots of technical terms, modern developer tools and concepts, technical roles like developers/PMs/UX designers. I translate technical and business requirements into designs, create prototypes to validate designs, build tools to simplify production, and look for technologies to improve productivity.</p>
+  <p>Along the journey I'm exposed to, and sometimes have a taste of, many cool front end technologies (frameworks, tools, libraries, etc.). I start to realize the importance of programming fundamentals. Being a design/manager girl for more than 3 years, I need to catch up on algorithm/data structure to "survive" in such a fast-paced front-end world. I was told that "before you're a front end, you need to be a solid software engineer." and I believe in it. So I started to practice solving algorithm problems on LeetCode. I'm logging my solutions here as my study note. Most of my first time solutions may not be effecient or smart. I'll try to improve them as I learn more.</p>
+  <ul class="post-list">
+    {% assign posts = site.categories.code %}
+      {% for post in posts %}
+      <li class="post-list-item">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h5><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
+      </li>
+      {% endfor %}
+  </ul>
 </div>

@@ -6,25 +6,21 @@ weight: 2
 ---
 
 <div class="projects">
-  <!-- <div class="tags text-justify">
-    {% assign tags = site.tags %}
-    {% for tag in tags %}
-    <a href="tag/{{ tag[0] | prepend: base.url }}" class="tag" title="{{ tag[1].size }} projects">{{ tag[0] }}</a>
-    {% endfor %}
-  </div> -->
-    <ul class="post-list">
-      {% assign projects = site.categories.project %}
-        {% for project in projects %}
-        <li class="post-list-item">
-            <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
-            <h5><a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h5>
-            <p class="post-excerpt">{{ project.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-            {% if project.thumbnailurl %}
-            <a href="{{ project.url | prepend: site.baseurl }}" class="post-thumbnail"><img src={{ site.baseurl | prepend: site.url }}/images/{{ project.thumbnailurl }} class="img-responsive thumbnail" data-thumbnailswap="{{ project.thumbnailswap }}" /></a>
-            {% else %}
-            <a href="{{ project.url | prepend: site.baseurl }}" class="post-thumbnail"><img src="http://placehold.it/800/b0bb91/ffffff?text={{project.title}}" class="img-responsive thumbnail"/></a>
-            {% endif %}
-        </li>
-        {% endfor %}
-    </ul>
+  <h3>A developer who cares about design.</h3>
+  <p>I enjoy friendly and smooth user experiences. I create prototypes to validate designs, and write demos and documentations to help improve design consistency. Even for things that are behind the scene, like source code, image assets, workflows, I still try to make them organized and findable.</p>
+  <ul class="post-list">
+    {% assign projects = site.categories.project %}
+      {% for project in projects %}
+      <li class="post-list-item">
+        <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
+        <h5><a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h5>
+        <p class="post-excerpt">{{ project.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+        {% if project.thumbnailurl %}
+        <a href="{{ project.url | prepend: site.baseurl }}" class="post-thumbnail"><img src={{ site.baseurl | prepend: site.url }}/images/{{ project.thumbnailurl }} class="img-responsive thumbnail" data-thumbnailswap="{{ project.thumbnailswap }}" /></a>
+        {% else %}
+        <a href="{{ project.url | prepend: site.baseurl }}" class="post-thumbnail"><img src="http://placehold.it/800/b0bb91/ffffff?text={{project.title}}" class="img-responsive thumbnail"/></a>
+        {% endif %}
+      </li>
+      {% endfor %}
+  </ul>
 </div>
