@@ -3,6 +3,7 @@ layout: page
 title: Traits
 permalink: /traits/
 weight: 5
+hidden: false
 ---
 
 ### My job traits, work styles, and other fun facts

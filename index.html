@@ -1,6 +1,7 @@
 ---
 layout: default
 weight: 1
+hidden: false
 ---
 
 <div class="home">
@@ -15,8 +16,8 @@ weight: 1
 <div class="projects">
     <h3>Recent Projects</h3>
     <ul class="post-list">
-      {% assign recents = site.categories.project  %}
-        {% for recent in recents | limit: 6 %}
+      {% assign recents = site.categories.project %}
+        {% for recent in recents limit: 6 %}
         <li class="post-list-item">
             <span class="post-meta">{{ recent.date | date: "%b %-d, %Y" }}</span>
             <h5>
