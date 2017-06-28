@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "1. Two Sum"
+date:   2017-06-27 19:06:19 -0700
+categories: code
+tags: algorithm
+---
+
+#### Question
+
+[LeetCode #1](https://leetcode.com/problems/two-sum/#/description)
+
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+**Example:**
+```
+Given nums = [2, 7, 11, 15], target = 9,
+
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+```
+
+#### One loop
+
+1. loop through the array
+2. store each number's complement number `target - nums[i]` in a new array
+3. check the complement array to see if the current number exist
+
+
+#### Playground
+
+<p data-height="600" data-theme-id="light" data-slug-hash="ZyagWM" data-default-tab="js,result" data-user="chryw" data-embed-version="2" data-pen-title="1. Two Sum" class="codepen">See the Pen <a href="https://codepen.io/chryw/pen/ZyagWM/">1. Two Sum</a> by Cherry Wang (<a href="https://codepen.io/chryw">@chryw</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
