@@ -1,0 +1,12 @@
+.page-content {
+  table {
+    border-collapse: collapse;
+    th, td {
+      border: 1px solid $color-accent;
+      text-align: center;
+      max-width: 10rem;
+      min-width: 4rem;
+      padding: 1rem;
+    }
+  }
+}

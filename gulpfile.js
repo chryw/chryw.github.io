@@ -63,5 +63,6 @@ gulp.task('watch', ['cachebust'], () => {
   browserSync.init({
     server: './_site',
   });
-  gulp.watch('**/*.{scss, js, md, html}, !_site/*.{css, js, html}', ['build']).on('change', browserSync.reload);
+  gulp.watch('**/*, !_site/**/*', ['build']);
+  gulp.watch("_site/**/*").on('change', browserSync.reload);
 });

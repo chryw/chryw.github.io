@@ -15,7 +15,7 @@ The previous version had hundreds of icons. I heard that the catalog was built w
 
 ### Prep work
 
-I realized that whatever method and tool I choose to generate the actual catalog pdf, I would need a spreadsheet of icon names, thumbnail path, and some descriptive metadata that would help users understand usage, and search for icons (if the name search isn't enough). So I built a metadata schema.
+I realized that whatever method and tool I choose to generate the actual catalog pdf, I would need a spreadsheet of icon names, thumbnail path, and some descriptive metadata that would help users understand usage, and search for icons (if the name search isn't enough). So I built a metadata schema. 
 
 ![Icon catalog metadata schema][schema]
 
