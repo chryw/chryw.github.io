@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "66. Plus One"
+date:   2017-07-08 22:04:20 -0700
+categories: code
+tags: algorithm
+---
+
+#### Question
+
+[LeetCode #66](https://leetcode.com/problems/plus-one/#/description)
+
+Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.
+
+You may assume the integer do not contain any leading zero, except the number 0 itself.
+
+The digits are stored such that the most significant digit is at the head of the list.
+
+#### What the question really means
+
+| Input     | Output     |
+| :------------- | :------------- |
+| [2, 3, 5]       | [2, 3, 6]       |
+| [9, 9]       | [1, 0, 0]       |
+| [0]       | [1]       |
+
+#### Pseudo code
+1. Loop through the given array from tail
+2. If the current digit is less than 9, add 1 and return
+3. If the current digit is 9, set it to 0
+4. Add `[1]` to the head of the array and return
+
+#### Playground
+
+<p data-height="600" data-theme-id="light" data-slug-hash="awQbRM" data-default-tab="js,result" data-user="chryw" data-embed-version="2" data-pen-title="66. Plus One" class="codepen">See the Pen <a href="https://codepen.io/chryw/pen/awQbRM/">66. Plus One</a> by Cherry Wang (<a href="https://codepen.io/chryw">@chryw</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
