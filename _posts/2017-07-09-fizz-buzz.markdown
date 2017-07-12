@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "412. Fizz Buzz"
+date:   2017-07-09 20:16:20 -0700
+categories: code
+tags: algorithm
+---
+
+#### Question
+
+[LeetCode #412](https://leetcode.com/problems/fizz-buzz/#/description)
+
+Write a program that outputs the string representation of numbers from 1 to n.
+
+But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
+
+Example:
+
+```
+n = 15,
+
+Return:
+[
+    "1",
+    "2",
+    "Fizz",
+    "4",
+    "Buzz",
+    "Fizz",
+    "7",
+    "8",
+    "Fizz",
+    "Buzz",
+    "11",
+    "Fizz",
+    "13",
+    "14",
+    "FizzBuzz"
+]
+```
+
+#### Pseudo code
+1. Loop through all numbers from 1 to n.
+2. If it's 3's multiple,
+  - If it's also 5's multiple, push "FizzBuzz" to the output array
+  - If not, just push "Fizz"
+3. If not 3's multiple, but it's 5's multiple, push "Buzz"
+4. If neither 3's or 5's multiple, just push the number itself but convert to string.
+
+#### Playground
+
+<p data-height="600" data-theme-id="light" data-slug-hash="YQdQKO" data-default-tab="js,result" data-user="chryw" data-embed-version="2" data-pen-title="412. Fizz Buzz" class="codepen">See the Pen <a href="https://codepen.io/chryw/pen/YQdQKO/">412. Fizz Buzz</a> by Cherry Wang (<a href="https://codepen.io/chryw">@chryw</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
