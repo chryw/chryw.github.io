@@ -2,8 +2,10 @@
 layout: post
 title:  "Icon processing utilities with Node"
 date:   2017-12-18 19:18:19 -0700
-categories: code
+categories: project
 tags: javascript node gulp es6 icon svg image
+thumbnailurl: "2017-12-01-icon-processing-utilities-with-node.png"
+thumbnailswap: false
 excerpt_separator: <!--more-->
 ---
 
@@ -79,3 +81,6 @@ This task is helpful when we want to mimic the "disabled" state in Visual Studio
 #### Make ico from pngs
 
 This task is alternative to a paid, Windows only software Axialis IconWorkshop. It only covers the configurations we need.
+
+### Source code
+[https://github.com/chryw/iconutil](https://github.com/chryw/iconutil)
