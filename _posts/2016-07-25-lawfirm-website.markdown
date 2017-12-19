@@ -9,21 +9,25 @@ thumbnailswap: false
 excerpt_separator: <!--more-->
 ---
 
-I'm creating a new website for a law firm in Japan. My friend [@irzzz](http://github.com/irzzz) is the designer and I'm the developer.
+I built a new website for a law firm in Japan.
 
 <!--more-->
 
-#### View live site here
-<a href="http://beta.catenology.com/cassielawfirm/" target="_blank" rel="noopener noreferrer">BridgeRoots staging website</a>
+### Live demo
+[BridgeRoots Law firm website](https://cassielawfirm.netlify.com/)
 
-Our client BridgeRoots is a lawfirm located in Japan. Their current website was built several years ago with WordPress and maintained by a vendor. The client would like to recreate the website in a modern style, update some old content, and ideally have the site load faster. We analyzed their needs and suggested making it a Jekyll based static one page website because
+### Background
+I collaborated with my friend [@irzzz](http://github.com/irzzz) (UX Designer) in this project. Irene gave me a high-fidelity wireframe for the landing page in desktop view. I built a responsive html mockup according to her design.
+
+The client BridgeRoots is a law firm located in Japan. Their current website was built several years ago with WordPress and maintained by a vendor. The client would like to recreate the website in a modern style, update some old content, and ideally have the site load faster. We analyzed their needs and suggested making it a Jekyll based static one page website because
 - the site only serves as a simple showcase of the company's profile
 - the majority of site content doesn't need to be updated very often
 - there isn't a lot of server-side interaction needed
 - it's easier to customize a non-WordPress website
 - Jekyll is blog aware so it's still not hard to update and post news (which is a secondary focus of the website's content)
 
-My friend  [@irzzz](http://github.com/irzzz) (UX Designer) gave me a high-fidelity wireframe for the landing page in desktop view. I'm currently working on a responsive html mockup according to her design.
+### Desktop
+<img class="img-responsive" src="/images/2016-07-25-lawfirm-website.png" alt="BridgeRoots website desktop" />
 
-<p data-height="800" data-theme-id="light" data-slug-hash="OXOGbr" data-default-tab="result" data-user="chryw" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/chryw/pen/OXOGbr/">cassielawfirm</a> by Cherry Wang (<a href="http://codepen.io/chryw">@chryw</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+### Mobile
+<img class="img-responsive" src="/images/2016-07-25-lawfirm-website_mobile.png" alt="BridgeRoots website mobile" />
