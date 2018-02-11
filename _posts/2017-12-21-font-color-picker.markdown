@@ -33,4 +33,5 @@ To manipulate the text selection color, I have to toggle CSS classes, instead of
 #### It's bad practice to use `event.stopPropagation()` to dismiss a popup
 
 I wanted to dismiss the expanded swatch panel when clicking outside. Instead of `event.stopPropagation()`, I added a listener to `document` and let it explicitly detect clicks that are not supposed to open the swatch.
+
 [CSS-Tricks article](https://css-tricks.com/dangers-stopping-event-propagation/)
