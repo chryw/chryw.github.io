@@ -57,7 +57,7 @@ define(['jquery', 'Chart'], function($, Chart) {
         if (chartRadarDOM !== null && chartRadarDOM !== undefined) {
           //define chart data
           var chartRadarData = {
-              labels: ["HTML / CSS", "JavaScript", "Database", "C#.NET / OOP / Algorithm", "Photoshop / Illustrator", "Git"],
+              labels: ["HTML / CSS", "JavaScript", "Database", "Design", "Git"],
               datasets: [{
                   label: "Skill Level",
                   backgroundColor: hexToRgb(gloalVariables.colors['color-brand'], 50),
@@ -67,7 +67,7 @@ define(['jquery', 'Chart'], function($, Chart) {
                   pointHoverBackgroundColor: '#fff',
                   pointHoverBorderColor: hexToRgb(gloalVariables.colors['color-brand']),
                   pointBorderWidth: 2,
-                  data: [9, 7, 6, 5, 10, 9]
+                  data: [9, 7, 7, 10, 7]
               }]
           };
           //define chart options

@@ -24,7 +24,7 @@ The new design is more bright and clean. It's also built with Jekyll like the pr
 ### Landing page (Desktop)
 ![House of Hong new website desktop](/images/2018-02-11-house-of-hong-new-website-desktop.png)
 ### Landing page (Mobile)
-![House of Hong new website mobile](/images/2018-02-11-house-of-hong-new-website-mobile.png)
+![House of Hong new website mobile](/images/2018-02-11-house-of-hong-new-website-mobile.png){: style="width: 320px;"}
 
 ### What's new
 
