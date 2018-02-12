@@ -13,7 +13,7 @@ I rebuilt the library with React.
 
 <!--more-->
 
-The image library includes all image assets that are shipped in Visual Studio IDE and an index to describe each asset. It is published on MSDN every year for Visual Studio developers to download. The previous version was created in Adobe InDesign and generated as static files. This year I built a web version where icons can be quickly filtered and downloaded on demand. View live site at [http://vsicons-msdn.azurewebsits.net](Visual Studio Image Library 2017).
+The image library includes all image assets that are shipped in Visual Studio IDE and an index to describe each asset. It is published on MSDN every year for Visual Studio developers to download. The previous version was created in Adobe InDesign and generated as static files. This year I built a web version where icons can be quickly filtered and downloaded on demand. View live site at [http://vsicons.azurewebsits.net](Visual Studio Image Library 2017).
 
 #### Highlights
 
